@@ -1,0 +1,19 @@
+apply plugin: 'kotlin'
+apply plugin: 'kotlin-kapt'
+
+kotlin {
+    experimental {
+        coroutines "enable"
+    }
+}
+
+dependencies {
+
+    implementation Libs.kotlin_std
+    implementation Libs.rxRelay
+
+    implementation Libs.arrow
+    kapt Libs.arrowCompiler
+
+    implementation TestLibs.kotlinTest //Generators for mock data
+}

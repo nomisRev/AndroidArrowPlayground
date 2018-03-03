@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">AndroidArrowPlayground</string>
+
+    <string name="validation_example">Validation Example</string>
+    <string name="tictactoe_example">Tic tac toe Example</string>
+
+    <string name="saving">Saving</string>
+    <string name="saved_success">Saved Successfully</string>
+    <string name="saved_failure">Saving failed</string>
+
+    <!-- Validation hints -->
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="email">E-mail</string>
+    <string name="confirm">Confirm</string>
+
+    <!-- Validation error strings -->
+    <string name="username_error">"Username cannot contain special characters."</string>
+    <string name="password_error">"Password must be at least 10 characters long, including an uppercase and a lowercase letter, one number and one special character."</string>
+    <string name="name_error">"First name cannot contain spaces, numbers or special characters."</string>
+    <string name="lastname_error">"Last name cannot contain spaces, numbers or special characters."</string>
+    <string name="email_error">"Email is malformed."</string>
+    <string name="tictactoe_reset">Reset</string>
+
+</resources>
